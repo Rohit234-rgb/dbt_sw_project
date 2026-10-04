@@ -1,0 +1,11 @@
+sources: 
+    - name : stage
+      database : DBTPROJECT
+      schema : RAW
+      config : 
+        enabled : true
+      tables : 
+        - name : hosts
+        - name : listings
+        - name: bookings
+        

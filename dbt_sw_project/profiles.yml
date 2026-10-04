@@ -1,0 +1,13 @@
+dbt_sw_project:
+  outputs:
+    dev:
+      account: WQZLHXZ-QC06657
+      database: DBTPROJECT
+      password: Welomcome@12345
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: ROHITDBT
+      warehouse: COMPUTE_WH
+  target: dev
